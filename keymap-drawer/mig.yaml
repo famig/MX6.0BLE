@@ -20,6 +20,7 @@ layers:
   - AL CAL
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -40,6 +41,7 @@ layers:
   - KP NLCK
   - KP DIVIDE
   - KP MULTIPLY
+  - KP MINUS
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -60,6 +62,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
+  - KP PLUS
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -73,9 +76,6 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-high$$
-  - KP MINUS
-  - KP PLUS
   - KP 4
   - KP 5
   - KP 6
@@ -95,6 +95,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
+  - KP ENTER
   - $$mdi:apple-keyboard-control$$
   - LWIN
   - $$mdi:apple-keyboard-option$$
@@ -108,7 +109,6 @@ layers:
   - $$mdi:arrow-right-bold$$
   - KP 0
   - KP DOT
-  - KP ENTER
   Mac:
   - $$mdi:keyboard-esc$$
   - F1
@@ -129,6 +129,7 @@ layers:
   - AL CAL
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -149,6 +150,7 @@ layers:
   - KP NLCK
   - KP DIVIDE
   - KP MULTIPLY
+  - KP MINUS
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -169,6 +171,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
+  - KP PLUS
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
@@ -182,9 +185,6 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-high$$
-  - KP MINUS
-  - KP PLUS
   - KP 4
   - KP 5
   - KP 6
@@ -204,6 +204,7 @@ layers:
   - KP 1
   - KP 2
   - KP 3
+  - KP ENTER
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -217,7 +218,6 @@ layers:
   - $$mdi:arrow-right-bold$$
   - KP 0
   - KP DOT
-  - KP ENTER
   Fn:
   - '&studio_unlock'
   - $$mdi:brightness-7$$
@@ -239,6 +239,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -251,6 +252,7 @@ layers:
   - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -300,11 +302,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Mac, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -319,7 +320,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -423,12 +423,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
