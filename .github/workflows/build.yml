@@ -8,16 +8,3 @@ on:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.2
-
-name: My Workflow
-on: [push]
-
-# 全局指定运行时（适用于所有 jobs）
-env:
-  ACTIONS_RUNNER_NODEJS_VERSION: 24
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
