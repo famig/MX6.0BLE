@@ -80,11 +80,6 @@ RC(5,0)  RC(5,1)  RC(5,2)                             RC(5,6)                   
 		    ;
 };
 
-ext_power {
-    compatible = "zmk,ext-power-generic";
-    control-gpios = <&gpio0 27 GPIO_ACTIVE_LOW>;
-    };
-
 vbatt: vbatt {
     compatible = "zmk,battery-voltage-divider";
     io-channels = <&adc 2>;
