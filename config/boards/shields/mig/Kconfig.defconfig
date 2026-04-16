@@ -1,6 +1,6 @@
 if SHIELD_MIG
 
 config ZMK_KEYBOARD_NAME
-    default "MX6.0 BLE"
+    default "WEN's Keyboard"
 
 endif
