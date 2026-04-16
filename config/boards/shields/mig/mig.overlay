@@ -3,6 +3,16 @@
 #include "mig-layout.dtsi"
 
 / {
+    aliases {
+        ext-power = &ext_power_custom;
+    };
+
+    ext_power_custom: ext_power_custom {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio0 27 GPIO_ACTIVE_LOW>;
+        status = "okay";
+    };
+
     model = "mig";
     compatible = "migperipherals,mig";
 
@@ -79,7 +89,7 @@ vbatt: vbatt {
     compatible = "zmk,battery-voltage-divider";
     io-channels = <&adc 2>;
     output-ohms = <2000000>;
-     full-ohms = <(2000000 + 806000)>;
+     full-ohms = <(2000000 + 82000)>;
     };
 };
 
