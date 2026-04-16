@@ -76,7 +76,7 @@ RC(5,0)  RC(5,1)  RC(5,2)                             RC(5,6)                   
     // --- 修改开始：RGB 根节点 ---
     underglow: underglow {
         compatible = "zmk,underglow";
-        chain-length = <110>; /* 【新增】必须添加这一行，定义灯珠数量 */
+        chain-length = <108>; /* 【新增】必须添加这一行，定义灯珠数量 */
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>; /* 【新增】定义颜色顺序 GRB */
         status = "okay";
     };
@@ -125,7 +125,7 @@ vbatt: vbatt {
         spi-max-frequency = <4000000>;
 
         /* WS2812 */
-        chain-length = <110>;
+        chain-length = <108>;
         spi-one-frame = <0x70>;
         spi-zero-frame = <0x40>;
 
