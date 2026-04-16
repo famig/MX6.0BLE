@@ -8,7 +8,7 @@
 
     chosen {
         zmk,kscan = &kscan0;
-        zmk,underglow = &led_strip;
+        zmk,underglow = &underglow;
         zmk,physical-layout = &mig_layout;
     };
 
